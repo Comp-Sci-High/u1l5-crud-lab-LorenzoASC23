@@ -19,8 +19,8 @@ console.log(playlist);
 // OBJECTS SECTION
 // Task 5: Create an object called 'song' with 'title', 'artist', and 'duration' properties
 let song = {
-title = "",
-artist = ""
+title : "",
+artist : ""
 };
 
 // Task 6: Add a property 'listenedTo' to the 'song' object and set it to false
@@ -34,9 +34,9 @@ delete song.artist;
 // NESTED ARRAYS & OBJECTS SECTION
 // Task 8: Create an object called 'album' with properties song's album's 'name', 'year', and 'songs' (leave 'songs' as empty array for now)
 let album = {
-name = "",
-songs = [],
-year = 
+name: "Drake",
+songs:[],
+year:2011
 };
 
 // Task 9: Add your song object (task 5) to the empty songs array in the album object
